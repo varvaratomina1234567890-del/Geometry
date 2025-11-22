@@ -40,5 +40,3 @@ class RectangleTestCase(unittest.TestCase):
         with self.assertRaises(ValueError):
             perimeter(-5, 10)
 
-if __name__ == '__main__':
-    unittest.main()
